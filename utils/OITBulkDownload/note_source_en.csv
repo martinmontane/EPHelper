@@ -1,0 +1,262 @@
+﻿note_source, note_source.label, note_source.sort
+"R1:2383","Repository: Eurostat",1
+"R1:2384","Repository: Eurostat special tabulation",2
+"R1:2382","Repository: OECD",3
+"R1:2473","Repository: World Bank",4
+"R1:3139","Repository: International Monetary Fund",5
+"R1:2476","Repository: ILO-STATISTICS",6
+"R1:3513","Repository: ILO-STATISTICS - Micro data processing",7
+"R1:2475","Repository: ILO-AMERICAS",8
+"R1:3133","Repository: UNICEF",9
+"R1:2478","Repository: UN-ECLAC",10
+"R1:3473","Repository: SEDLAC (CEDLAS and The World Bank)",11
+"R1:2474","Repository: UN-DESA",12
+"R1:2795","Repository: National Central Bank",13
+"R1:2796","Repository: CIS-STAT",14
+"R1:3472","Repository: CARICOM",15
+"R1:2798","Repository: Ministry of Labour",16
+"R1:2799","Repository: UNDP",17
+"R1:2803","Repository: Media Reports",18
+"R1:3136","Repository: European Commission",19
+"R1:3138","Repository: Asian Development Bank",20
+"R1:3134","Repository: African Economic Outlook",21
+"R1:3140","Repository: Social Security Programs Throughout the World",22
+"R1:3137","Repository: World Health Oganization",23
+"R1:3135","Repository: Ministry of Finances",24
+"R1:4005","Repository: ILO calculations based on Eurostat data",25
+"S14:4077","Employment definition: Excluding own-use production workers",26
+"S14:3359","Employment definition: Including subsistence workers",27
+"S14:4147","Employment definition: Other nonstandard definition",28
+"S11:328","Temporary change in source: Labour force survey",29
+"S11:321","Temporary change in source: Other household survey",30
+"S11:329","Temporary change in source: Population census",31
+"S11:327","Temporary change in source: Economic or establishment census",32
+"S11:325","Temporary change in source: National Accounts",33
+"S11:323","Temporary change in source: Insurance records",34
+"S11:326","Temporary change in source: Official Estimates",35
+"S3:2880","Data reference period: Average of 9 monthly points",36
+"S3:2879","Data reference period: Average of 11 monthly points",37
+"S3:2116","Data reference period: Average of 2 monthly points",38
+"S3:2882","Data reference period: Average of 3 monthly points",39
+"S3:2881","Data reference period: Average of 4 monthly points",40
+"S3:2884","Data reference period: Average of 5 monthly points",41
+"S3:6","Data reference period: First semester",42
+"S3:7","Data reference period: Second semester",43
+"S3:8","Data reference period: First quarter",44
+"S3:9","Data reference period: Second quarter",45
+"S3:10","Data reference period: Third quarter",46
+"S3:11","Data reference period: Fourth quarter",47
+"S3:12","Data reference period: January",48
+"S3:13","Data reference period: February",49
+"S3:14","Data reference period: March",50
+"S3:15","Data reference period: April",51
+"S3:16","Data reference period: May",52
+"S3:17","Data reference period: June",53
+"S3:18","Data reference period: July",54
+"S3:19","Data reference period: August",55
+"S3:20","Data reference period: September",56
+"S3:21","Data reference period: October",57
+"S3:22","Data reference period: November",58
+"S3:23","Data reference period: December",59
+"S3:1490","Data reference period: Beginning of year",60
+"S3:24","Data reference period: End of the year",61
+"S3:2885","Data reference period: Average of 2 quarterly points",62
+"S3:2841","Data reference period: Average of 3 quarterly points",63
+"S3:25","Data reference period: Incomplete year",64
+"S3:26","Data reference period: Noncalendar year",65
+"S4:4137","Geographical coverage: EU-SILC may exclude small parts of the national territory amounting to no more than 2% of the national population and the national territories.",66
+"S4:30","Geographical coverage: Total national, excluding overseas territories",67
+"S4:34","Geographical coverage: Total national, excluding some areas",68
+"S4:31","Geographical coverage: Urban areas only",69
+"S4:32","Geographical coverage: Main city or metropolitan area",70
+"S4:33","Geographical coverage: Main cities or metropolitan areas",71
+"S4:2886","Geographical coverage: Capital city",72
+"S4:3263","Geographical coverage: Nairobi & Mombasa & Kisumu",73
+"S4:3275","Geographical coverage: Gitega & Bujumbura",74
+"S4:3288","Geographical coverage: Maputo & Sofala & Nampula",75
+"S4:3276","Geographical coverage: Ontario & Quebec",76
+"S4:1437","Geographical coverage: Government controlled areas",77
+"S4:35","Geographical coverage: Nonstandard geographical coverage",78
+"S4:4625","Geographical coverage: Not applicable",79
+"S5:4138","Population coverage: Excluding institutional population and persons in collective households",80
+"S5:38","Population coverage: Excluding both institutional population and armed forces and/or conscripts",81
+"S5:40","Population coverage: Excluding institutional population",82
+"S5:41","Population coverage: Excluding armed forces and/or conscripts",83
+"S5:43","Population coverage: Excluding foreigners or foreign born population",84
+"S5:42","Population coverage: Excluding indigenous population",85
+"S5:2378","Population coverage: Excluding labour camps",86
+"S5:2761","Population coverage: Nationals only",87
+"S5:2963","Population coverage: Excluding nomadic population",88
+"S5:2527","Population coverage: Africans",89
+"S5:2528","Population coverage: Agricultural workers",90
+"S5:2529","Population coverage: Europeans",91
+"S5:2530","Population coverage: High income group",92
+"S5:2532","Population coverage: Industrial workers",93
+"S5:2534","Population coverage: Low income group",94
+"S5:2536","Population coverage: Middle income group",95
+"S5:2537","Population coverage: Non-manual employees",96
+"S5:2539","Population coverage: Wage earners",97
+"S5:3483","Population coverage: Government official",98
+"S5:352","Population coverage: Including armed forces and/or conscripts",99
+"S5:350","Population coverage: Including foreigners",100
+"S5:2887","Population coverage: Excluding resident foreign diplomats and regular military living in barracks",101
+"S5:356","Population coverage: Nationals, residents",102
+"S5:3210","Population coverage: Excluding non-permanent residents",103
+"S5:3115","Population coverage: Excluding nationals in the private sector",104
+"S5:44","Population coverage: Nonstandard population coverage",105
+"S5:3769","Population coverage: Excluding Central Bank employees",106
+"S7:56","Institutional sector coverage: Public sector only",107
+"S7:57","Institutional sector coverage: Private sector only",108
+"S7:2922","Institutional sector coverage: Excluding private sector",109
+"S7:1570","Institutional sector coverage: Excluding federal juridisctions",110
+"S7:1487","Institutional sector coverage: Excluding local jurisdictions",111
+"S7:58","Institutional sector coverage: Nonstandard institutional sector coverage",112
+"S7:2762","Institutional sector coverage: Private and parastatals sector only",113
+"S7:3914","Institutional sector coverage: Excluding certain categories of public workers",114
+"S8:61","Economic activity coverage: Excluding agriculture",115
+"S8:1640","Economic activity coverage: Excluding public administration",116
+"S8:1619","Economic activity coverage: Excluding activities of households as employers and of extraterritorial organizations and bodies",117
+"S8:2815","Economic activity coverage: Excluding agriculture and activities of households as employers and of extraterritorial organisations and bodies",118
+"S8:4128","Economic activity coverage: Excluding public administration, education, and human health and social work",119
+"S8:2603","Economic activity coverage: Excluding agriculture and non-market services",120
+"S8:2566","Economic activity coverage: Excluding agriculture, public administration, and activities of households as employers and of extraterritorial organisations and bodies",121
+"S8:2771","Economic activity coverage: Excluding construction",122
+"S8:3211","Economic activity coverage: Excluding public administration, and activities of households as employers and of extraterritorial organisations and bodies",123
+"S8:3264","Economic activity coverage: Industry only",124
+"S8:62","Economic activity coverage: Manufacturing industries only",125
+"S8:2769","Economic activity coverage: Manufacturing, services, and repair trades only",126
+"S8:2768","Economic activity coverage: Wholesale and retail only",127
+"S8:63","Economic activity coverage: Nonstandard economic activity coverage",128
+"S8:5132","Economic activity coverage: Agriculture only",129
+"S8:3907","Economic activity coverage: Excluding agriculture, hunting, forestry and fishing",130
+"S8:3943","Economic activity coverage: Public administration only",131
+"S8:3894","Economic activity coverage: Excluding activities of households as employers, undifferentiated good and services-producing activities of households for own use",132
+"S9:3478","Reference group coverage: Total employment",133
+"S9:66","Reference group coverage: Employees",134
+"S9:67","Reference group coverage: Wage earners / blue collar / production workers",135
+"S9:68","Reference group coverage: Salaried employed / white collar / office workers",136
+"S9:1517","Reference group coverage: Excluding employees in private domestic services",137
+"S9:369","Reference group coverage: Excluding unpaid family workers",138
+"S9:1581","Reference group coverage: Excluding students",139
+"S9:1583","Reference group coverage: Excluding disabled persons",140
+"S9:1582","Reference group coverage: Excluding pensioners",141
+"S9:371","Reference group coverage: Excluding unemployed",142
+"S9:372","Reference group coverage: Excluding first time job seekers",143
+"S9:366","Reference group coverage: Including first time job seekers",144
+"S9:3937","Reference group coverage: Excluding apprentices",145
+"S9:259","Reference group coverage: Insured persons",146
+"S9:2923","Reference group coverage: Employees and members of producers¿ cooperatives",147
+"S9:261","Reference group coverage: Work applicants",148
+"S9:391","Reference group coverage: Adults",149
+"S9:2783","Reference group coverage: Garment employees",150
+"S9:2780","Reference group coverage: Industrial, agricultural, and institution-based employees",151
+"S9:2777","Reference group coverage: Manual workers, shop assistants, and domestic helpers",152
+"S9:2775","Reference group coverage: Unskilled employees",153
+"S9:2784","Reference group coverage: Unskilled factory employees",154
+"S9:2779","Reference group coverage: Regular employees",155
+"S9:2778","Reference group coverage: Permanent employees",156
+"S9:2898","Reference group coverage: Excluding temporarily absent from work",157
+"S9:2958","Reference group coverage: Including seasonal workers who were currently not employed nor seeking work",158
+"S9:3269","Reference group coverage: Commercial or industrial employees",159
+"S9:3265","Reference group coverage: Semi-skilled employees in handicraft",160
+"S9:2551","Reference group coverage: Excluding unemployed whose last period of employment was over a year ago",161
+"S9:2552","Reference group coverage: Excluding unemployed whose last period of employment was 8 years ago or more",162
+"S9:3479","Reference group coverage: Employees, excluding domestic services",163
+"S9:3480","Reference group coverage: Employees, including domestic services",164
+"S9:362","Reference group coverage: Nonstandard coverage of employed and/or unemployed persons",165
+"S9:4134","Reference group coverage: Including non residents",166
+"S6:359","Establishment size coverage: All establishments with at least 2 employees",167
+"S6:1463","Establishment size coverage: All establishments with at least 3 employees",168
+"S6:47","Establishment size coverage: All establishments with at least 5 employees",169
+"S6:48","Establishment size coverage: All establishments with at least 10 employees",170
+"S6:358","Establishment size coverage: All establishments with at least 15 employees",171
+"S6:1602","Establishment size coverage: All establishments with at least 16 employees",172
+"S6:49","Establishment size coverage: All establishments with at least 20 employees",173
+"S6:50","Establishment size coverage: All establishments with at least 25 employees",174
+"S6:2956","Establishment size coverage: All establishments with at least 30 employees",175
+"S6:51","Establishment size coverage: All establishments with at least 50 employees",176
+"S6:52","Establishment size coverage: All establishments with at least 100 employees",177
+"S6:2683","Establishment size coverage: All establishments with at least 50 employees and a sample of those with less than 50 employees",178
+"S6:53","Establishment size coverage: Nonstandard establishment size coverage",179
+"S10:73","System of national accounts: 2008 SNA",180
+"S10:72","System of national accounts: 1993 SNA",181
+"S10:3598","System of national accounts: 2010 ESA",182
+"S10:74","System of national accounts: Nonstandard SNA",183
+"T2:79","Age coverage - minimum age: Less than or equal to 9 years old",184
+"T2:239","Age coverage - minimum age: 10 years old",185
+"T2:80","Age coverage - minimum age: 11 years old",186
+"T2:81","Age coverage - minimum age: 12 years old",187
+"T2:82","Age coverage - minimum age: 13 years old",188
+"T2:83","Age coverage - minimum age: 14 years old",189
+"T2:85","Age coverage - minimum age: 16 years old",190
+"T2:86","Age coverage - minimum age: 17 years old",191
+"T2:87","Age coverage - minimum age: 18 years old",192
+"T2:3110","Age coverage - minimum age: 10 years old in rural areas and 12 years old in urban areas",193
+"T2:3204","Age coverage - minimum age: 15+",194
+"T2:3206","Age coverage - minimum age: 50+",195
+"T2:3182","Age coverage - minimum age: 55+",196
+"T2:3197","Age coverage - minimum age: 58+",197
+"T2:3183","Age coverage - minimum age: 60+",198
+"T2:3185","Age coverage - minimum age: 62+",199
+"T2:3170","Age coverage - minimum age: 64+",200
+"T2:3283","Age coverage - minimum age: 63+",201
+"T2:3203","Age coverage - minimum age: 65+",202
+"T2:3193","Age coverage - minimum age: 67+",203
+"T2:3192","Age coverage - minimum age: 70+",204
+"T2:3284","Age coverage - minimum age: 62+ Men | 60+ Women",205
+"T2:3208","Age coverage - minimum age: 60+ Men | 55+ Women. Age for denominator: 65+",206
+"T2:3207","Age coverage - minimum age: 55+ Men | 50+ Women",207
+"T2:3202","Age coverage - minimum age: 65+ (62+ for OA allowances for women)",208
+"T2:3201","Age coverage - minimum age: 60+ Women | 65+ Men",209
+"T2:3200","Age coverage - minimum age: 65+ Men | 60+ Women",210
+"T2:3199","Age coverage - minimum age: 65+ Men | 62+ Women",211
+"T2:3198","Age coverage - minimum age: 61 + Men | 60+ Women",212
+"T2:3196","Age coverage - minimum age: 65+ Men | 64+ Women",213
+"T2:3195","Age coverage - minimum age: 67 + Men | 62+ Women",214
+"T2:3194","Age coverage - minimum age: 62 + Men | 57 + Women",215
+"T2:3191","Age coverage - minimum age: 62.2 + Men | 60.7 Women",216
+"T2:3190","Age coverage - minimum age: 60 + Men | 55,5+ Women",217
+"T2:3189","Age coverage - minimum age: 55/60+",218
+"T2:3188","Age coverage - minimum age: 62.5 + Men | 60+ Women",219
+"T2:3187","Age coverage - minimum age: 62.5 Men | 57,5 Women",220
+"T2:3186","Age coverage - minimum age: 60 + Men | 58+ Women",221
+"T2:3184","Age coverage - minimum age: 62+ Men | 57 + Women",222
+"T2:3180","Age coverage - minimum age: 63 + Men | 60+ Women",223
+"T2:3179","Age coverage - minimum age: 63 + Men | 61+ Women",224
+"T2:3178","Age coverage - minimum age: 60+ (65+ for non contributory pension)",225
+"T2:3177","Age coverage - minimum age: 63 Men | 62.5 Women",226
+"T2:3176","Age coverage - minimum age: 63+ Men | 58+ Women",227
+"T2:3175","Age coverage - minimum age: 60+ (Eligible age for Renta Dignidad)",228
+"T2:3174","Age coverage - minimum age: 55+ as common denominator (Eligibility: 65+ for non contributory pension except 60 in specific region)",229
+"T2:3173","Age coverage - minimum age: 63+ Men | 61+ Women",230
+"T2:3172","Age coverage - minimum age: 64+ Men | 62+ Women",231
+"T2:3171","Age coverage - minimum age: 60+ Men | 55+ Women",232
+"T2:3205","Age coverage - minimum age: 15-64",233
+"T2:3181","Age coverage - minimum age: 16-64",234
+"T2:254","Age coverage - minimum age: Nonstandard minimum age",235
+"T3:2479","Age coverage - maximum age: 24 years old",236
+"T3:3101","Age coverage - maximum age: 28 years old",237
+"T3:2481","Age coverage - maximum age: 29 years old",238
+"T3:3712","Age coverage - maximum age: 60 years old",239
+"T3:90","Age coverage - maximum age: Less than or equal to 60 years old",240
+"T3:3919","Age coverage - maximum age: 60 for men and 55 for women",241
+"T3:91","Age coverage - maximum age: 61 years old",242
+"T3:92","Age coverage - maximum age: 62 years old",243
+"T3:3657","Age coverage - maximum age: 62 for males and 59 for females",244
+"T3:93","Age coverage - maximum age: 63 years old",245
+"T3:3066","Age coverage - maximum age: 63 for males and 57 for females",246
+"T3:4189","Age coverage - maximum age: 62.5 for men and 59.5 for women",247
+"T3:94","Age coverage - maximum age: 64 years old",248
+"T3:2819","Age coverage - maximum age: 64 for males and 59 for females",249
+"T3:95","Age coverage - maximum age: 65 years old",250
+"T3:3936","Age coverage - maximum age: 65 for men and 63 for women",251
+"T3:3328","Age coverage - maximum age: 59 for males and 54 for females",252
+"T3:96","Age coverage - maximum age: 66 years old",253
+"T3:99","Age coverage - maximum age: 69 years old",254
+"T3:100","Age coverage - maximum age: 70 years old",255
+"T3:102","Age coverage - maximum age: 72 years old",256
+"T3:104","Age coverage - maximum age: 74 years old",257
+"T3:240","Age coverage - maximum age: 75 years old",258
+"T3:105","Age coverage - maximum age: 76 years or older, but bounded",259
+"T3:2849","Age coverage - maximum age: 79 years old",260
+"T3:255","Age coverage - maximum age: Nonstandard maximum age",261

@@ -1,0 +1,434 @@
+﻿indicator, indicator.label, indicator.sort
+"SDG_0111_SEX_AGE_RT","SDG indicator 1.1.1 - Working poverty rate (percentage of employed living below US$1.90 PPP) (%)",1
+"SDG_0131_SEX_SOC_RT","SDG indicator 1.3.1 - Proportion of population covered by social protection floors/systems (%)",2
+"SDG_0552_OCU_RT","SDG indicator 5.5.2 - Female share of employment in managerial positions (%)",3
+"SDG_0821_NOC_RT","SDG indicator 8.2.1 - Annual growth rate of output per worker (measured as GDP in constant 2011 international $ in PPP) (%)",4
+"SDG_A831_SEX_RT","SDG indicator 8.3.1 - Proportion of informal employment in non-agricultural employment (%)",5
+"SDG_B831_SEX_RT","SDG indicator 8.3.1 - Proportion of informal employment in non-agricultural employment -- Harmonized series (%)",6
+"SDG_0851_SEX_OCU_NB","SDG indicator 8.5.1 - Average hourly earnings of female and male employees (Local currency)",7
+"SDG_0852_SEX_AGE_RT","SDG indicator 8.5.2 - Unemployment rate (%)",8
+"SDG_0852_SEX_DSB_RT","SDG indicator 8.5.2 - Unemployment rate by disability status (%)",9
+"SDG_0861_SEX_RT","SDG indicator 8.6.1 - Proportion of youth (aged 15-24 years) not in education, employment or training (%)",10
+"SDG_B871_SEX_AGE_RT","SDG indicator 8.7.1 - Proportion of children engaged in economic activity and household chores (%)",11
+"SDG_A871_SEX_AGE_RT","SDG indicator 8.7.1 - Proportion of children engaged in economic activity (%)",12
+"SDG_N881_SEX_MIG_RT","SDG indicator 8.8.1 - Non-fatal occupational injuries per 100'000 workers",13
+"SDG_F881_SEX_MIG_RT","SDG indicator 8.8.1 - Fatal occupational injuries per 100'000 workers",14
+"SDG_0922_NOC_RT","SDG indicator 9.2.2 - Manufacturing employment as a proportion of total employment (%)",15
+"SDG_1041_NOC_RT","SDG indicator 10.4.1 - Labour income share as a percent of GDP (%)",16
+"GDP_211P_NOC_NB","Output per worker (GDP constant 2011 international $ in PPP) -- ILO modelled estimates, November 2018",17
+"GDP_205U_NOC_NB","Output per worker (GDP constant 2010 US $) -- ILO modelled estimates, November 2018",18
+"POP_2LDR_NOC_RT","Labour dependency ratio -- ILO modelled estimates, November 2018",19
+"POP_2POP_SEX_AGE_NB","Population by sex and age -- UN estimates and projections, July 2017 (thousands)",20
+"POP_2POP_SEX_AGE_GEO_NB","Population by sex, age and rural / urban areas -- UN estimates, July 2017 (thousands)",21
+"POP_2POP_GEO_NB","Population by rural / urban areas -- UN estimates and projections, July 2017 (thousands)",22
+"EAP_2EAP_SEX_AGE_NB","Labour force by sex and age -- ILO modelled estimates, July 2018 (thousands)",23
+"EAP_2MDN_SEX_NB","Median age of the labour force by sex -- ILO modelled estimates, July 2018 (years)",24
+"EAP_2WAP_SEX_AGE_RT","Labour force participation rate by sex and age -- ILO modelled estimates, July 2018 (%)",25
+"EMP_2EMP_SEX_AGE_NB","Employment by sex and age -- ILO modelled estimates, November 2018 (thousands)",26
+"EMP_2EMP_SEX_STE_NB","Employment by sex and status in employment -- ILO modelled estimates, November 2018 (thousands)",27
+"EMP_2EMP_SEX_ECO_NB","Employment by sex and economic activity -- ILO modelled estimates, November 2018 (thousands)",28
+"EMP_2EMP_SEX_OCU_NB","Employment by sex and occupation -- ILO modelled estimates, November 2018 (thousands)",29
+"EMP_2EMP_SEX_AGE_CLA_NB","Employment by sex, age and economic class -- ILO modelled estimates, November 2018 (thousands)",30
+"EMP_2EMP_SEX_STE_DT","Employment distribution by status in employment (by sex) -- ILO modelled estimates, November 2018 (%)",31
+"EMP_2EMP_SEX_ECO_DT","Employment distribution by economic activity (by sex) -- ILO modelled estimates, November 2018 (%)",32
+"EMP_2EMP_SEX_OCU_DT","Employment distribution by occupation (by sex) -- ILO modelled estimates, November 2018 (%)",33
+"EMP_2EMP_SEX_AGE_CLA_DT","Employment distribution by economic class (by sex and age) -- ILO modelled estimates, November 2018 (%)",34
+"EMP_2WAP_SEX_AGE_RT","Employment-to-population ratio by sex and age -- ILO modelled estimates, November 2018 (%)",35
+"UNE_2UNE_SEX_AGE_NB","Unemployment by sex and age -- ILO modelled estimates, November 2018 (thousands)",36
+"UNE_2EAP_SEX_AGE_RT","Unemployment rate by sex and age -- ILO modelled estimates, November 2018 (%)",37
+"EIP_2PLF_SEX_AGE_NB","Potential labour force by sex and age -- ILO modelled estimates, November 2018 (thousands)",38
+"LUU_2LU3_SEX_AGE_RT","Combined rate of unemployment and potential labour force (LU3) by sex and age -- ILO modelled estimates, November 2018 (%)",39
+"EIP_2EIP_SEX_AGE_NB","Persons outside the labour force by sex and age -- ILO modelled estimates, July 2018 (thousands)",40
+"EIP_2EET_SEX_NB","Youth not in employment, education or training (NEET) by sex -- ILO modelled estimates, November 2018 (thousands)",41
+"EIP_2WAP_SEX_AGE_RT","Inactivity rate by sex and age -- ILO modelled estimates, July 2018 (%)",42
+"EIP_2EET_SEX_RT","Share of youth not in employment, education or training (NEET) by sex -- ILO modelled estimates, November 2018 (%)",43
+"LAP_2GDP_NOC_RT","Labour income share as a percent of GDP -- ILO modelled estimates, July 2019 (%)",44
+"LAP_2LID_QTL_DT","Labour income distribution -- ILO modelled estimates, July 2019 (%)",45
+"EAR_MREE_NOC_GR","Mean real monthly earnings of employees, annual growth -- ILO modelled estimates, Nov. 2018 (%)",46
+"POP_XWAP_SEX_AGE_NB","Working-age population by sex and age (thousands)",47
+"POP_XWAP_SEX_AGE_EDU_NB","Working-age population by sex, age and education (thousands)",48
+"POP_XWAP_SEX_AGE_GEO_NB","Working-age population by sex, age and rural / urban areas (thousands)",49
+"POP_XWAP_SEX_EDU_NB","Working-age population by sex and education (thousands)",50
+"POP_XWAP_SEX_EDU_GEO_NB","Working-age population by sex, education and rural / urban areas (thousands)",51
+"POP_XWAP_SEX_DSB_NB","Working-age population by sex and disability status (thousands)",52
+"EAP_TEAP_SEX_AGE_NB","Labour force by sex and age (thousands)",53
+"EAP_TEAP_SEX_AGE_EDU_NB","Labour force by sex, age and education (thousands)",54
+"EAP_TEAP_SEX_AGE_GEO_NB","Labour force by sex, age and rural / urban areas (thousands)",55
+"EAP_TEAP_SEX_EDU_NB","Labour force by sex and education (thousands)",56
+"EAP_TEAP_SEX_EDU_GEO_NB","Labour force by sex, education and rural / urban areas (thousands)",57
+"EAP_TEAP_SEX_DSB_NB","Labour force by sex and disability status (thousands)",58
+"EAP_TEAP_SEX_AGE_EDU_DT","Labour force distribution by education (by sex and age) (%)",59
+"EAP_TEA1_SEX_AGE_NB","Labour force by sex and age, seasonally adjusted series (thousands)",60
+"EAP_DWAP_SEX_AGE_RT","Labour force participation rate by sex and age (%)",61
+"EAP_DWAP_SEX_AGE_EDU_RT","Labour force participation rate by sex, age and education (%)",62
+"EAP_DWAP_SEX_AGE_GEO_RT","Labour force participation rate by sex, age and rural / urban areas (%)",63
+"EAP_DWAP_SEX_EDU_GEO_RT","Labour force participation rate by sex, education and rural / urban areas (%)",64
+"EAP_DWA1_SEX_AGE_RT","Labour force participation rate by sex and age, seasonally adjusted series (%)",65
+"POP_2FLF_NOC_RT","Female labour force as % of working-age population -- ILO modelled estimates, July 2018",66
+"POP_2MLF_NOC_RT","Male labour force as % of working-age population -- ILO modelled estimates, July 2018",67
+"POP_2TLF_NOC_RT","Persons outside the labour force as % of working-age population -- ILO modelled estimates, July 2018",68
+"POP_AEDA_NOC_RT","Share of adult population with advanced education (%)",69
+"EAP_2WAP_NOC_RT","Labour force participation rate -- ILO modelled estimates, July 2018 (%)",70
+"EAP_2WAF_NOC_RT","Labour force participation rate, women -- ILO modelled estimates, July 2018 (%)",71
+"EAP_2WAM_NOC_RT","Labour force participation rate, men -- ILO modelled estimates, July 2018 (%)",72
+"EAP_DWAP_NOC_RT","Labour force participation rate (%)",73
+"EAP_DWAM_NOC_RT","Labour force participation rate, men (%)",74
+"EAP_DWAF_NOC_RT","Labour force participation rate, women (%)",75
+"EMP_TEMP_SEX_AGE_NB","Employment by sex and age (thousands)",76
+"EMP_TEMP_SEX_AGE_EDU_NB","Employment by sex, age and education (thousands)",77
+"EMP_TEMP_SEX_DSB_NB","Employment by sex and disability status (thousands)",78
+"EMP_TEMP_SEX_AGE_GEO_NB","Employment by sex, age and rural / urban areas (thousands)",79
+"EMP_TEMP_SEX_AGE_JOB_NB","Employment by sex, age and working time arrangement (thousands)",80
+"EMP_TEMP_SEX_EDU_NB","Employment by sex and education (thousands)",81
+"EMP_TEMP_SEX_EDU_GEO_NB","Employment by sex, education and rural / urban areas (thousands)",82
+"EMP_TEMP_SEX_STE_NB","Employment by sex and status in employment (thousands)",83
+"EMP_TEMP_SEX_STE_GEO_NB","Employment by sex, status in employment and rural / urban areas (thousands)",84
+"EMP_TEMP_SEX_AGE_STE_NB","Employment by sex, age and status in employment (thousands)",85
+"EMP_TEMP_SEX_INS_NB","Employment by sex and institutional sector (thousands)",86
+"EMP_TEMP_SEX_ECO_NB","Employment by sex and economic activity (thousands)",87
+"EMP_TEMP_SEX_EC2_NB","Employment by sex and economic activity - ISIC level 2 (thousands)",88
+"EMP_TEMP_SEX_ECO_GEO_NB","Employment by sex, economic activity and rural / urban areas (thousands)",89
+"EMP_TEMP_SEX_OCU_NB","Employment by sex and occupation (thousands)",90
+"EMP_TEMP_SEX_OC2_NB","Employment by sex and occupation - ISCO level 2 (thousands)",91
+"EMP_TEMP_SEX_OCU_GEO_NB","Employment by sex, occupation and rural / urban areas (thousands)",92
+"EMP_TEMP_SEX_HOW_NB","Employment by sex and weekly hours actually worked (thousands)",93
+"EMP_TEMP_SEX_HOW_GEO_NB","Employment by sex, weekly hours actually worked and rural / urban areas (thousands)",94
+"EMP_TEMP_SEX_MJH_NB","Employment by sex and and multiple-job holding (thousands)",95
+"EMP_TEMP_ECO_OCU_NB","Employment by economic activity and occupation (thousands)",96
+"EMP_TEMP_SEX_STE_ECO_NB","Employment by sex, status in employment and economic activity (thousands)",97
+"EMP_TEMP_SEX_STE_OCU_NB","Employment by sex, status in employment and occupation (thousands)",98
+"EMP_TEMP_SEX_AGE_EDU_DT","Employment distribution by education (by sex and age) (%)",99
+"EMP_TEMP_SEX_ECO_DT","Employment distribution by economic activity (by sex) (%)",100
+"EMP_TEMP_SEX_OCU_DT","Employment distribution by occupation (by sex) (%)",101
+"EMP_TEMP_SEX_STE_DT","Employment distribution by status in employment (by sex) (%)",102
+"EMP_TEMP_SEX_HOW_DT","Employment distribution by hours actually worked (by sex) (%)",103
+"EMP_TEM1_SEX_AGE_NB","Employment by sex and age, seasonally adjusted series (thousands)",104
+"EMP_TEM1_SEX_ECO_NB","Employment by sex and economic activity, seasonally adjusted series (thousands)",105
+"EMP_XFMG_NOC_RT","Female share of employment in senior and middle management (%)",106
+"EMP_DWAP_SEX_AGE_RT","Employment-to-population ratio by sex and age (%)",107
+"EMP_DWAP_SEX_AGE_EDU_RT","Employment-to-population ratio by sex, age and education (%)",108
+"EMP_DWAP_SEX_AGE_GEO_RT","Employment-to-population ratio by sex, age and rural / urban areas (%)",109
+"EMP_DWAP_SEX_EDU_GEO_RT","Employment-to-population ratio by sex, education and rural / urban areas (%)",110
+"EMP_DWA1_SEX_AGE_RT","Employment-to-population ratio by sex and age, seasonally adjusted series (%)",111
+"EMP_PTER_SEX_RT","Incidence of part-time employment by sex -- Common definition (%)",112
+"EES_TEES_SEX_INS_NB","Employees by sex and institutional sector (thousands)",113
+"EES_TEES_SEX_ECO_NB","Employees by sex and economic activity (thousands)",114
+"EES_TEES_SEX_EC2_NB","Employees by sex and economic activity - ISIC level 2 (thousands)",115
+"EES_TEES_SEX_OCU_NB","Employees by sex and occupation (thousands)",116
+"EES_TEES_SEX_OC2_NB","Employees by sex and occupation - ISCO level 2 (thousands)",117
+"EES_TEES_SEX_AGE_JOB_NB","Employees by sex, age and temporary or permanent contract (thousands)",118
+"EES_TEES_SEX_HOW_NB","Employees by sex and weekly hours actually worked (thousands)",119
+"EES_TEES_ECO_OCU_NB","Employees by economic activity and occupation (thousands)",120
+"EES_XTMP_SEX_RT","Share of temporary employees by sex (%)",121
+"IFL_XIEM_SEX_ECO_IFL_NB","Informal employment and informal sector by sex (thousands)",122
+"IFL_XIEM_SEX_ECO_IFL_RT","Informal employment and informal sector as a percent of employment by sex (%)",123
+"IFL_4IEM_SEX_ECO_IFL_NB","Informal employment and informal sector by sex -- Harmonized series (thousands)",124
+"IFL_4IEM_SEX_ECO_IFL_RT","Informal employment and informal sector as a percent of employment by sex -- Harmonized series (%)",125
+"PSE_TPSE_GOV_NB","Public employment by sectors and sub-sectors of national accounts (thousands)",126
+"EMP_2EER_NOC_RT","Employers as % of total employment -- ILO modelled estimates, November 2018",127
+"EMP_2EES_NOC_RT","Employees as % of total employment -- ILO modelled estimates, November 2018",128
+"EMP_2OAW_NOC_RT","Own-account workers as % of total employment -- ILO modelled estimates, November 2018",129
+"EMP_2CFW_NOC_RT","Contributing family workers as % of total employment -- ILO modelled estimates, November 2018",130
+"EMP_2AGR_NOC_RT","Agriculture as % of total employment -- ILO modelled estimates, November 2018",131
+"EMP_2IND_NOC_RT","Industry as % of total employment -- ILO modelled estimates, November 2018",132
+"EMP_2SRV_NOC_RT","Services as % of total employment -- ILO modelled estimates, November 2018",133
+"EMP_2WAP_NOC_RT","Employment-to-population ratio -- ILO modelled estimates, November 2018 (%)",134
+"EMP_2MEP_NOC_RT","Employment-to-population ratio, men -- ILO modelled estimates, November 2018 (%)",135
+"EMP_2WEP_NOC_RT","Employment-to-population ratio, women -- ILO modelled estimates, November 2018 (%)",136
+"EMP_2YEP_NOC_RT","Employment-to-population ratio, youth -- ILO modelled estimates, November 2018 (%)",137
+"EMP_DWAP_NOC_RT","Employment-to-population ratio (%)",138
+"EMP_DWAM_NOC_RT","Employment-to-population ratio, men (%)",139
+"EMP_DWAF_NOC_RT","Employment-to-population ratio, women (%)",140
+"EMP_TAGR_NOC_RT","Share of agriculture in total employment (%)",141
+"EMP_TCFW_NOC_RT","Share of contributing family workers in total employment (%)",142
+"EMP_TEER_NOC_RT","Share of employers in total employment (%)",143
+"EMP_TIND_NOC_RT","Share of industry in total employment (%)",144
+"EMP_TOAW_NOC_RT","Share of own-account workers in total employment (%)",145
+"EMP_TSRV_NOC_RT","Share of services in total employment (%)",146
+"EMP_FAGR_NOC_RT","Female share of employment in agriculture (%)",147
+"EMP_FCFW_NOC_RT","Share of contributing family workers in total employment, women (%)",148
+"EMP_FEER_NOC_RT","Share of employers in total employment, women (%)",149
+"EMP_FIND_NOC_RT","Female share of employment in industry (%)",150
+"EMP_FOAW_NOC_RT","Share of own-account workers in total employment, women (%)",151
+"EMP_FSRV_NOC_RT","Female share of employment in services (%)",152
+"EMP_MCFW_NOC_RT","Share of contributing family workers in total employment, men (%)",153
+"EMP_MEER_NOC_RT","Share of employers in total employment, men (%)",154
+"EMP_MOAW_NOC_RT","Share of own-account workers in total employment, men (%)",155
+"POV_PLT1_NOC_RT","Extremely poor (<US$1.90, PPP) as % of total employment -- ILO modelled estimates",156
+"POV_P2T3_NOC_RT","Moderately poor (>=US$1.90 & <US$3.10, PPP) as % of total employment -- ILO modelled estimates",157
+"POV_P3T5_NOC_RT","Near poor (>=US$3.10 & <US$5, PPP) as % of total employment -- ILO modelled estimates",158
+"POV_DEMM_NOC_RT","Working poverty rate, men (%)",159
+"POV_DEMF_NOC_RT","Working poverty rate, women (%)",160
+"POV_DEMP_NOC_RT","Working poverty rate (%)",161
+"TRU_TTRU_SEX_AGE_NB","Time-related underemployment by sex and age (thousands)",162
+"TRU_TTRU_SEX_AGE_GEO_NB","Time-related underemployment by sex, age and rural / urban areas (thousands)",163
+"TRU_TTRU_SEX_EDU_GEO_NB","Time-related underemployment by sex, education and rural / urban areas (thousands)",164
+"TRU_DEMP_SEX_AGE_RT","Time-related underemployment rate by sex and age (%)",165
+"TRU_DEMP_SEX_AGE_GEO_RT","Time-related underemployment rate by sex, age and rural / urban areas (%)",166
+"TRU_DEMP_SEX_EDU_GEO_RT","Time-related underemployment rate by sex, education and rural / urban areas (%)",167
+"UNE_TUNE_SEX_AGE_NB","Unemployment by sex and age (thousands)",168
+"UNE_TUNE_SEX_DSB_NB","Unemployment by sex and disability status (thousands)",169
+"UNE_TUNE_SEX_AGE_EDU_NB","Unemployment by sex, age and education (thousands)",170
+"UNE_TUNE_SEX_AGE_GEO_NB","Unemployment by sex, age and rural / urban areas (thousands)",171
+"UNE_TUNE_SEX_AGE_DUR_NB","Unemployment by sex, age and duration (thousands)",172
+"UNE_TUNE_SEX_DUR_GEO_NB","Unemployment by sex, duration and rural / urban areas (thousands)",173
+"UNE_TUNE_SEX_EDU_GEO_NB","Unemployment by sex, education and rural / urban areas (thousands)",174
+"UNE_TUNE_SEX_EDU_NB","Unemployment by sex and education (thousands)",175
+"UNE_TUNE_SEX_ECO_NB","Unemployment of previously employed persons by sex and former economic activity (thousands)",176
+"UNE_TUNE_SEX_OCU_NB","Unemployment of previously employed persons by sex and former occupation (thousands)",177
+"UNE_TUNE_SEX_CAT_NB","Unemployment by sex and categories of unemployed persons (thousands)",178
+"UNE_TUN1_SEX_AGE_DUR_NB","Unemployment by sex, age and duration, seasonally adjusted series (thousands)",179
+"UNE_TUNE_SEX_AGE_EDU_DT","Unemployment distribution by education (by sex and age) (%)",180
+"UNE_TUNE_SEX_AGE_DUR_DT","Unemployment distribution by duration (by sex and age) (%)",181
+"UNE_TUN1_SEX_AGE_NB","Unemployment by sex and age, seasonally adjusted series (thousands)",182
+"UNE_DEAP_SEX_AGE_RT","Unemployment rate by sex and age (%)",183
+"UNE_DEAP_SEX_DSB_RT","Unemployment rate by sex and disability status (%)",184
+"UNE_DEAP_SEX_AGE_EDU_RT","Unemployment rate by sex, age and education (%)",185
+"UNE_DEAP_SEX_AGE_GEO_RT","Unemployment rate by sex, age and rural / urban areas (%)",186
+"UNE_DEAP_SEX_EDU_GEO_RT","Unemployment rate by sex, education and rural / urban areas (%)",187
+"UNE_DEA1_SEX_AGE_RT","Unemployment rate by sex and age, seasonally adjusted series (%)",188
+"LUU_XLU2_SEX_AGE_GEO_RT","Combined rate of time-related underemployment and unemployment (LU2) by sex, age and rural / urban areas (%)",189
+"LUU_XLU2_SEX_EDU_GEO_RT","Combined rate of time-related underemployment and unemployment (LU2) by sex, education and rural / urban areas (%)",190
+"LUU_XLU3_SEX_AGE_GEO_RT","Combined rate of unemployment and potential labour force (LU3) by sex, age and rural / urban areas (%)",191
+"LUU_XLU3_SEX_EDU_GEO_RT","Combined rate of unemployment and potential labour force (LU3) by sex, education and rural / urban areas (%)",192
+"LUU_XLU4_SEX_AGE_GEO_RT","Composite measure of labour underutilization (LU4) by sex, age and rural / urban areas (%)",193
+"LUU_XLU4_SEX_EDU_GEO_RT","Composite measure of labour underutilization (LU4) by sex, education and rural / urban areas (%)",194
+"LUU_XLU2_SEX_AGE_RT","Combined rate of time-related underemployment and unemployment (LU2) by sex and age (%)",195
+"LUU_XLU3_SEX_AGE_RT","Combined rate of unemployment and potential labour force (LU3) by sex and age (%)",196
+"LUU_XLU4_SEX_AGE_RT","Composite measure of labour underutilization (LU4) by sex and age (%)",197
+"EIP_WDIS_SEX_AGE_NB","Discouraged job-seekers by sex and age (thousands)",198
+"EIP_WDIS_SEX_AGE_GEO_NB","Discouraged job-seekers by sex, age and rural / urban areas (thousands)",199
+"EIP_WDIS_SEX_EDU_GEO_NB","Discouraged job-seekers by sex, education and rural / urban areas (thousands)",200
+"EIP_WPLF_SEX_AGE_GEO_NB","Potential labour force by sex, age and rural / urban areas (thousands)",201
+"EIP_WPLF_SEX_EDU_GEO_NB","Potential labour force by sex, education and rural / urban areas (thousands)",202
+"EIP_WPLF_SEX_AGE_NB","Potential labour force by sex and age (thousands)",203
+"EIP_TEIP_SEX_AGE_NB","Persons outside the labour force by sex and age (thousands)",204
+"EIP_TEIP_SEX_AGE_EDU_NB","Persons outside the labour force by sex, age and education (thousands)",205
+"EIP_TEIP_SEX_AGE_GEO_NB","Persons outside the labour force by sex, age and rural / urban areas (thousands)",206
+"EIP_TEIP_SEX_EDU_GEO_NB","Persons outside the labour force by sex, education and rural / urban areas (thousands)",207
+"EIP_TEIP_SEX_EDU_NB","Persons outside the labour force by sex and education (thousands)",208
+"EIP_DWAP_SEX_AGE_RT","Inactivity rate by sex and age (%)",209
+"EIP_DWAP_SEX_AGE_EDU_RT","Inactivity rate by sex, age and education (%)",210
+"EIP_DWAP_SEX_AGE_GEO_RT","Inactivity rate by sex, age and rural / urban areas (%)",211
+"EIP_DWAP_SEX_EDU_GEO_RT","Inactivity rate by sex, education and rural / urban areas (%)",212
+"EIP_NEET_SEX_NB","Youth not in employment, education or training (NEET) by sex (thousands)",213
+"EIP_NEET_SEX_GEO_NB","Youth not in employment, education or training (NEET) by sex and rural / urban areas (thousands)",214
+"EIP_NEET_SEX_GEO_RT","Share of youth not in employment, education or training (NEET) by sex and rural / urban areas (%)",215
+"EIP_NEET_SEX_RT","Share of youth not in employment, education or training (NEET) by sex (%)",216
+"UNE_2EAP_NOC_RT","Unemployment rate -- ILO modelled estimates, November 2018 (%)",217
+"UNE_2URM_NOC_RT","Unemployment rate, men -- ILO modelled estimates, November 2018 (%)",218
+"UNE_2URW_NOC_RT","Unemployment rate, women -- ILO modelled estimates, November 2018 (%)",219
+"TRU_DEMP_NOC_RT","Time-related underemployment rate (%)",220
+"TRU_DEMM_NOC_RT","Time-related underemployment rate, men (%)",221
+"TRU_DEMF_NOC_RT","Time-related underemployment rate, women (%)",222
+"UNE_DEAP_NOC_RT","Unemployment rate (%)",223
+"UNE_DEAM_NOC_RT","Unemployment rate, men (%)",224
+"UNE_DEAF_NOC_RT","Unemployment rate, women (%)",225
+"UNE_EDAD_NOC_RT","Share of unemployed persons with advanced education (%)",226
+"UNE_EDBS_NOC_RT","Share of unemployed persons with basic education (%)",227
+"UNE_EDIN_NOC_RT","Share of unemployed persons with intermediate education (%)",228
+"POP_3WAP_SEX_AGE_GEO_NB","Youth working-age population by sex, age and rural / urban areas (thousands)",229
+"POP_3WAP_SEX_AGE_EDU_NB","Youth working-age population by sex, age and education (thousands)",230
+"POP_3WAP_SEX_AGE_STU_NB","Youth working-age population by sex, age and school attendance status (thousands)",231
+"POP_3WAP_SEX_AGE_LMS_NB","Youth working-age population by sex, age and labour market status (thousands)",232
+"EAP_3EAP_SEX_AGE_GEO_NB","Youth labour force by sex, age and rural / urban areas (thousands)",233
+"EAP_3EAP_SEX_AGE_EDU_NB","Youth labour force by sex, age and education (thousands)",234
+"EAP_3EAP_SEX_AGE_STU_NB","Youth labour force by sex, age and school attendance status (thousands)",235
+"EAP_3WAP_SEX_AGE_GEO_RT","Youth labour force participation rate by sex, age and rural / urban areas (%)",236
+"EAP_3WAP_SEX_AGE_EDU_RT","Youth labour force participation rate by sex, age and education (%)",237
+"EAP_3WAP_SEX_AGE_STU_RT","Youth labour force participation rate by sex, age and school attendance status (%)",238
+"EMP_3EMP_SEX_AGE_GEO_NB","Youth employment by sex, age and rural / urban areas (thousands)",239
+"EMP_3EMP_SEX_AGE_EDU_NB","Youth employment by sex, age and education (thousands)",240
+"EMP_3EMP_SEX_AGE_STU_NB","Youth employment by sex, age and school attendance status (thousands)",241
+"EMP_3EMP_SEX_AGE_STE_NB","Youth employment by sex, age and status in employment (thousands)",242
+"EMP_3EMP_SEX_AGE_ECO_NB","Youth employment by sex, age and economic activity (thousands)",243
+"EMP_3EMP_SEX_AGE_OCU_NB","Youth employment by sex, age and occupation (thousands)",244
+"EMP_3EMP_SEX_AGE_HOW_NB","Youth employment by sex, age and weekly hours actually worked (thousands)",245
+"EMP_3EMP_SEX_AGE_JOB_NB","Youth employment by sex, age and working time arrangement (thousands)",246
+"EMP_3WAP_SEX_AGE_GEO_RT","Youth employment-to-population ratio by sex, age and rural / urban areas (%)",247
+"EMP_3WAP_SEX_AGE_EDU_RT","Youth employment-to-population ratio by sex, age and education (%)",248
+"EMP_3WAP_SEX_AGE_STU_RT","Youth employment-to-population ratio by sex, age and school attendance status (%)",249
+"TRU_3TRU_SEX_AGE_GEO_NB","Youth time-related underemployment by sex, age and rural / urban areas (thousands)",250
+"EES_3EES_SEX_AGE_JOB_NB","Youth employees by sex, age and type of job contract (thousands)",251
+"UNE_3UNE_SEX_AGE_GEO_NB","Youth unemployment by sex, age and rural / urban areas (thousands)",252
+"UNE_3UNE_SEX_AGE_EDU_NB","Youth unemployment by sex, age and education (thousands)",253
+"UNE_3UNE_SEX_AGE_STU_NB","Youth unemployment by sex, age and school attendance status (thousands)",254
+"UNE_3UNE_SEX_AGE_CAT_NB","Youth unemployment by sex, age and categories of unemployed persons (thousands)",255
+"UNE_3UNE_SEX_AGE_DUR_NB","Youth unemployment by sex, age and duration (thousands)",256
+"UNE_3EAP_SEX_AGE_GEO_RT","Youth unemployment rate by sex, age and rural / urban areas (%)",257
+"UNE_3EAP_SEX_AGE_EDU_RT","Youth unemployment rate by sex, age and education (%)",258
+"UNE_3EAP_SEX_AGE_STU_RT","Youth unemployment rate by sex, age and school attendance status (%)",259
+"UNE_3WAP_SEX_AGE_STU_RT","Youth unemployment-to-population ratio by sex, age and school attendance status (%)",260
+"EIP_3EIP_SEX_AGE_GEO_NB","Youth outside the labour force by sex, age and rural / urban areas (thousands)",261
+"EIP_3EIP_SEX_AGE_EDU_NB","Youth outside the labour force by sex, age and education (thousands)",262
+"EIP_3EIP_SEX_AGE_STU_NB","Youth outside the labour force by sex, age and school attendance status (thousands)",263
+"EIP_3DIS_SEX_AGE_GEO_NB","Youth discouraged job-seekers by sex, age and rural / urban areas (thousands)",264
+"EIP_3WAP_SEX_AGE_GEO_RT","Youth inactivity rate by sex, age and rural / urban areas (%)",265
+"EIP_3WAP_SEX_AGE_EDU_RT","Youth inactivity rate by sex, age and education (%)",266
+"EIP_3WAP_SEX_AGE_STU_RT","Youth inactivity rate by sex, age and school attendance status (%)",267
+"EAP_DYAP_NOC_RT","Youth labour force participation rate (%)",268
+"EAP_DYAM_NOC_RT","Youth labour force participation rate, men (%)",269
+"EAP_DYAF_NOC_RT","Youth labour force participation rate, women (%)",270
+"UNE_DYAP_NOC_RT","Youth unemployment rate (%)",271
+"UNE_DYAM_NOC_RT","Youth unemployment rate, men (%)",272
+"UNE_DYAF_NOC_RT","Youth unemployment rate, women (%)",273
+"EIP_TNEE_NOC_RT","Share of youth not in employment, education or training (NEET) (%)",274
+"EIP_MNEE_NOC_RT","Share of youth not in employment, education or training (NEET), men (%)",275
+"EIP_FNEE_NOC_RT","Share of youth not in employment, education or training (NEET), women (%)",276
+"HOW_TEMP_SEX_ECO_GEO_NB","Mean weekly hours actually worked per employed person by sex, economic activity and rural / urban areas",277
+"HOW_TEMP_SEX_OCU_GEO_NB","Mean weekly hours actually worked per employed person by sex, occupation and rural / urban areas",278
+"HOW_TEMP_SEX_EC2_NB","Mean weekly hours actually worked per employed person by sex and economic activity - ISIC level 2",279
+"HOW_TEMP_SEX_ECO_NB","Mean weekly hours actually worked per employed person by sex and economic activity",280
+"HOW_TEMP_SEX_OCU_NB","Mean weekly hours actually worked per employed person by sex and occupation",281
+"HOW_TEMP_SEX_OC2_NB","Mean weekly hours actually worked per employed person by sex and occupation - ISCO level 2",282
+"HOW_UEMP_SEX_NB","Mean weekly hours usually worked per employed person by sex",283
+"HOW_XEES_SEX_EC2_NB","Mean weekly hours actually worked per employee by sex and economic activity - ISIC level 2",284
+"HOW_XEES_SEX_ECO_NB","Mean weekly hours actually worked per employee by sex and economic activity",285
+"HOW_XEES_SEX_OCU_NB","Mean weekly hours actually worked per employee by sex and occupation",286
+"HOW_XEES_SEX_OC2_NB","Mean weekly hours actually worked per employee by sex and occupation - ISCO level 2",287
+"HOW_UEES_SEX_NB","Mean weekly hours usually worked per employee by sex",288
+"EES_LT35_NOC_RT","Share of employees working less than 35 hours per week (%)",289
+"EES_3548_NOC_RT","Share of employees working 35-48 hours per week (%)",290
+"EES_TG48_NOC_RT","Share of employees working more than 48 hours per week (%)",291
+"EES_MG48_NOC_RT","Share of employees working more than 48 hours per week, men (%)",292
+"EES_FG48_NOC_RT","Share of employees working more than 48 hours per week, women (%)",293
+"HOW_TEMP_NOC_NB","Mean weekly hours actually worked per employed person",294
+"EAR_4MTH_SEX_ECO_CUR_NB","Mean nominal monthly earnings of employees by sex and economic activity -- Harmonized series",295
+"EAR_XEES_SEX_ECO_NB","Mean nominal monthly earnings of employees by sex and economic activity (local currency)",296
+"EAR_4MTH_SEX_OCU_CUR_NB","Mean nominal monthly earnings of employees by sex and occupation -- Harmonized series",297
+"EAR_XEES_SEX_OCU_NB","Mean nominal monthly earnings of employees by sex and occupation (local currency)",298
+"EAR_4MMN_CUR_NB","Statutory nominal gross monthly minimum wage -- Harmonized series",299
+"EAR_INEE_NOC_NB","Statutory nominal gross monthly minimum wage (local currency)",300
+"EAR_HEES_SEX_OCU_NB","Mean nominal hourly earnings of employees by sex and occupation (local currency)",301
+"EAR_4HRL_SEX_OCU_CUR_NB","Mean nominal hourly earnings of employees by sex and occupation -- Harmonized series",302
+"EAR_XTLP_SEX_RT","Low pay rate by sex (%)",303
+"EAR_XFLS_NOC_RT","Female share of low pay earners (%)",304
+"EAR_GGAP_OCU_RT","Gender wage gap by occupation (%)",305
+"EAR_4MNP_NOC_NB","Statutory nominal gross monthly minimum wage -- Harmonized series (constant 2011 PPP $)",306
+"EAR_4HPT_NOC_NB","Average hourly earnings of employees -- Harmonized series (constant 2011 PPP $)",307
+"EAR_4HPM_NOC_NB","Average hourly earnings of employees, men -- Harmonized series (constant 2011 PPP $)",308
+"EAR_4HPW_NOC_NB","Average hourly earnings of employees, women -- Harmonized series (constant 2011 PPP $)",309
+"EAR_4MPT_NOC_NB","Average monthly earnings of employees -- Harmonized series (constant 2011 PPP $)",310
+"EAR_4MPM_NOC_NB","Average monthly earnings of employees, men -- Harmonized series (constant 2011 PPP $)",311
+"EAR_4MPW_NOC_NB","Average monthly earnings of employees, women -- Harmonized series (constant 2011 PPP $)",312
+"EAR_TEAR_NOC_NB","Average monthly earnings of employees (local currency)",313
+"EAR_XMFG_NOC_NB","Average monthly earnings of employees, manufacturing (local currency)",314
+"EAR_MEAR_NOC_NB","Average monthly earnings of employees, men (local currency)",315
+"EAR_FEAR_NOC_NB","Average monthly earnings of employees, women (local currency)",316
+"EAR_GGAP_NOC_RT","Gender wage gap (%)",317
+"LAC_XEES_ECO_NB","Mean nominal hourly labour cost per employee by economic activity (local currency)",318
+"LAC_4HRL_ECO_CUR_NB","Mean nominal hourly labour cost per employee by economic activity -- Harmonized series",319
+"LAC_4HPT_NOC_NB","Average hourly labour cost per employee -- Harmonized series (constant 2011 PPP $)",320
+"LAC_TLAC_NOC_NB","Labour cost per employee (local currency)",321
+"LAC_XMFG_NOC_NB","Labour cost per employee, manufacturing (local currency)",322
+"SOC_HCOV_GEO_RT","Legal health coverage deficit by rural / urban areas (% of population without legal coverage) (%)",323
+"SOC_OOPE_GEO_RT","Out-of-pocket expenditure as a percentage of total health expenditure by rural / urban areas (%)",324
+"SOC_MMPB_GEO_RT","Maternal mortality ratio per 10 000 live births by rural / urban areas (%)",325
+"SOC_CGFR_GEO_RT","Financial deficit by rural / urban areas (% of population not covered due to financial resource deficit) (%)",326
+"SOC_CGHP_GEO_RT","Staff access deficit by rural / urban areas (% of population not covered due to health professional staff deficit) (%)",327
+"SOC_HEXP_INS_RT","Total health expenditure as a percent of GDP by institutional sector (%)",328
+"SOC_SOCP_SEX_RT","Share of unemployed receiving regular periodic social security unemployment benefits by sex (%)",329
+"SOC_HCOV_NOC_RT","Social health protection coverage as a percent of total population (%)",330
+"SOC_NPHC_NOC_RT","Percentage of health care expenditure not financed by private households' out of pocket payments (%)",331
+"SOC_EGGE_NOC_RT","Public health expenditure as a percent of General Government Expenditure (%)",332
+"SOC_PSPE_EXP_RT","Public social protection expenditure as a percent of GDP in function of health care (%)",333
+"SOC_EBEN_AGE_RT","Public social protection expenditure on benefits as a percent of GDP by age (%)",334
+"SOC_WBEN_NOC_RT","Public social protection expenditure on benefits for the working-age as a percent of GDP in function of general social assistance (%)",335
+"SOC_PPEN_SEX_GEO_RT","Share of population above statutory pensionable age receiving a contributory old age pension by sex and rural / urban areas (%)",336
+"SOC_PPEN_SEX_RT","Share of population above statutory pensionable age receiving an old age pension by sex (%)",337
+"SOC_CEAP_SEX_RT","Active contributors to an old age contributory scheme as a percent of labour force by sex (%)",338
+"SOC_CEAP_SEX_GEO_RT","Active contributors to an old age contributory scheme as a percent of employment by sex and rural / urban areas (%)",339
+"SOC_CWAP_SEX_RT","Active contributors to an old age contributory scheme as a percent of the working age population by sex (%)",340
+"SOC_HEXT_NOC_RT","Total health expenditure as a percent of GDP (%)",341
+"SOC_HEXR_NOC_RT","Private health expenditure as a percent of GDP (%)",342
+"SOC_HEXU_NOC_RT","Public health expenditure as a percent of GDP (%)",343
+"SOC_PEXT_NOC_RT","Public social protection expenditure [all functions] as a percent of GDP (%)",344
+"SOC_PEXN_NOC_RT","Public social protection expenditure [excluding health care] as a percent of GDP (%)",345
+"SOC_EBEO_NOC_RT","Public social protection expenditure on old age and survivors' benefits as a percent of GDP (%)",346
+"SOC_EBEW_NOC_RT","Public social protection expenditure on benefits for the working age as a percent of GDP (%)",347
+"SOC_EBEC_NOC_RT","Public social protection expenditure on benefits for children as a percent of GDP (%)",348
+"SOC_CEAT_NOC_RT","Active contributors to an old age contributory scheme as a percent of labour force (%)",349
+"SOC_CWAT_NOC_RT","Active contributors to an old age contributory scheme as a percent of the working-age population (%)",350
+"INJ_DAYS_SEX_MIG_NB","Days lost due to cases of occupational injury with temporary incapacity for work by sex and migrant status",351
+"INJ_DAYS_ECO_NB","Days lost due to cases of occupational injury with temporary incapacity for work by economic activity",352
+"INJ_FATL_SEX_MIG_NB","Cases of fatal occupational injury by sex and migrant status",353
+"INJ_FATL_ECO_NB","Cases of fatal occupational injury by economic activity",354
+"INJ_NFTL_SEX_MIG_NB","Cases of non-fatal occupational injury by sex and migrant status",355
+"INJ_NFTL_ECO_NB","Cases of non-fatal occupational injury by economic activity",356
+"INJ_NFTL_INJ_ECO_NB","Cases of non-fatal occupational injury by type of incapacity and economic activity",357
+"INJ_NFTL_SEX_INJ_MIG_NB","Cases of non-fatal occupational injury by sex, type of incapacity and migrant status",358
+"INJ_FATL_SEX_MIG_RT","Fatal occupational injuries per 100'000 workers by sex and migrant status",359
+"INJ_FATL_ECO_RT","Fatal occupational injuries per 100'000 workers by economic activity",360
+"INJ_NFTL_SEX_MIG_RT","Non-fatal occupational injuries per 100'000 workers by sex and migrant status",361
+"INJ_NFTL_ECO_RT","Non-fatal occupational injuries per 100'000 workers by economic activity",362
+"LAI_WOPL_NOC_NB","Registered workplaces that could be selected for labour inspection",363
+"LAI_INSP_SEX_NB","Number of labour inspectors by sex (thousands)",364
+"LAI_VIST_NOC_NB","Number of labour inspection visits to workplaces during the year",365
+"LAI_INDE_NOC_RT","Inspectors per 10'000 employed persons",366
+"LAI_VDIN_NOC_RT","Labour inspection visits per inspector",367
+"INJ_IRNF_NOC_RT","Non-fatal occupational injuries per 100'000 workers",368
+"INJ_TLPI_NOC_NB","Days lost per occupational injury",369
+"INJ_IRFA_NOC_RT","Fatal occupational injuries per 100'000 workers",370
+"ILR_TUMT_NOC_RT","Trade union density rate (%)",371
+"ILR_CBCT_NOC_RT","Collective bargaining coverage rate (%)",372
+"STR_TSTR_ECO_NB","Number of strikes and lockouts by economic activity",373
+"STR_DAYS_ECO_NB","Days not worked due to strikes and lockouts by economic activity",374
+"STR_WORK_ECO_NB","Workers involved in strikes and lockouts by economic activity (thousands)",375
+"STR_DAYS_ECO_RT","Days not worked per 1000 workers due to strikes and lockouts by economic activity (per 1000 workers)",376
+"STR_DAYS_NOC_RT","Days not worked per 1000 workers due to strikes and lockouts (per 1000 workers)",377
+"MST_XWAP_SEX_AGE_CBR_NB","Working-age population by sex, age and place of birth (thousands)",378
+"MST_XWAP_SEX_AGE_CCT_NB","Working-age population by sex, age and citizenship (thousands)",379
+"MST_XWAP_SEX_EDU_CBR_NB","Working-age population by sex, education and place of birth (thousands)",380
+"MST_XWAP_SEX_EDU_CCT_NB","Working-age population by sex, education and citizenship (thousands)",381
+"MNA_TPOP_SEX_CRS_NB","Stock of nationals abroad by sex and country of residence (thousands)",382
+"MFL_FPOP_SEX_CBR_NB","Inflow of foreign-born working-age population by sex and country of birth (in thousands)",383
+"MFL_NCIT_SEX_CCT_NB","Inflow of working-age non-citizens by sex and country of citizenship (in thousands)",384
+"MFL_FWAP_SEX_EDU_NB","Inflow of foreign-born working-age population by sex and education (in thousands)",385
+"MFL_NWAP_SEX_EDU_NB","Inflow of working-age non-citizens of working age by sex and education (in thousands)",386
+"MNA_XRET_SEX_CPR_NB","Inflow of nationals returned from abroad by sex and country of previous residence (thousands)",387
+"MFL_FEMP_SEX_ECO_NB","Inflow of foreign-born employed persons by sex and economic activity (in thousands)",388
+"MST_FORP_SEX_CBR_NB","Foreign-born working-age population by sex and country of birth (in thousands)",389
+"MFL_NEMP_SEX_ECO_NB","Inflow of employed non-citizens by sex and economic activity (in thousands)",390
+"MFL_FEMP_SEX_OCU_NB","Inflow of foreign-born employed persons by sex and occupation (in thousands)",391
+"MFL_NEMP_SEX_OCU_NB","Inflow of employed non-citizens by sex and occupation (in thousands)",392
+"MNA_OPOP_SEX_CDS_NB","Outflow of nationals by sex and country of destination (thousands)",393
+"MST_NCTP_SEX_CCT_NB","Non-citizen working-age population by sex and country of citizenship (in thousands)",394
+"MST_TEAP_SEX_AGE_CBR_NB","Labour force by sex, age and place of birth (thousands)",395
+"MST_TEAP_SEX_AGE_CCT_NB","Labour force by sex, age and citizenship (thousands)",396
+"MST_TEAP_SEX_AGE_CBR_RT","Labour force participation rate by sex, age and place of birth (thousands)",397
+"MST_TEAP_SEX_AGE_CCT_RT","Labour force participation rate by sex, age and citizenship (thousands)",398
+"MST_TEMP_SEX_AGE_CBR_NB","Employment by sex, age and place of birth (thousands)",399
+"MST_TEMP_SEX_AGE_CCT_NB","Employment by sex, age and citizenship (thousands)",400
+"MST_TEMP_SEX_ECO_CBR_NB","Employment by sex, economic activity and place of birth (thousands)",401
+"MST_TEMP_SEX_ECO_CCT_NB","Employment by sex, economic activity and citizenship (thousands)",402
+"MST_TEMP_SEX_OCU_CBR_NB","Employment by sex, occupation and place of birth (thousands)",403
+"MST_TEMP_SEX_OCU_CCT_NB","Employment by sex, occupation and citizenship (thousands)",404
+"MST_TEMP_SEX_STE_CBR_NB","Employment by sex, status in employment and place of birth (thousands)",405
+"MST_TEMP_SEX_STE_CCT_NB","Employment by sex, status in employment and citizenship (thousands)",406
+"MST_TEMP_SEX_AGE_CBR_RT","Employment-to-population ratio by sex, age and place of birth (%)",407
+"MST_TEMP_SEX_AGE_CCT_RT","Employment-to-population ratio by sex, age and citizenship (%)",408
+"MST_TEMP_SEX_CBR_ECO_DT","Employment distribution by economic activity (by sex and place of birth) (%)",409
+"MST_TEMP_SEX_CCT_ECO_DT","Employment distribution by economic activity (by sex and citizenship) (%)",410
+"MST_TEMP_SEX_CBR_OCU_DT","Employment distribution by occupation (by sex and place of birth) (%)",411
+"MST_TEMP_SEX_CCT_OCU_DT","Employment distribution by occupation (by sex and citizenship) (%)",412
+"MST_TEMP_SEX_CBR_STE_DT","Employment distribution by status in employment (by sex and place of birth) (%)",413
+"MST_TEMP_SEX_CCT_STE_DT","Employment distribution by status in employment (by sex and citizenship) (%)",414
+"MST_FORE_SEX_CBR_NB","Employed foreign-born persons by sex and country of birth (in thousands)",415
+"MST_NCTE_SEX_CCT_NB","Employed non-citizens by sex and country of citizenship (in thousands)",416
+"MNA_OEMP_SEX_CDS_NB","Outflow of nationals for employment by sex and country of destination (thousands)",417
+"MNA_OEMP_SEX_EDU_NB","Outflow of nationals for employment by sex and education (thousands)",418
+"MNA_OEMP_SEX_ECO_NB","Outflow of nationals for employment by sex and economic activity (thousands)",419
+"MNA_OEMP_SEX_OCU_NB","Outflow of nationals for employment by sex and occupation (thousands)",420
+"MST_TUNE_SEX_AGE_CBR_NB","Unemployment by sex, age and place of birth (in thousands)",421
+"MST_TUNE_SEX_AGE_CCT_NB","Unemployment by sex, age and citizenship (in thousands)",422
+"MST_TUNE_SEX_AGE_CBR_RT","Unemployment rate by sex, age and place of birth (%)",423
+"MST_TUNE_SEX_AGE_CCT_RT","Unemployment rate by sex, age and citizenship (%)",424
+"MST_EARA_SEX_CBR_NB","Mean nominal monthly earnings of employees by sex and place of birth (local currency)",425
+"MST_EARA_SEX_CCT_NB","Mean nominal monthly earnings of employees by sex and citizenship (local currency)",426
+"MST_TEIP_SEX_AGE_CBR_NB","Persons outside the labour force by sex, age and place of birth (in thousands)",427
+"MST_TEIP_SEX_AGE_CCT_NB","Persons outside the labour force by sex, age and citizenship (in thousands)",428
+"CPI_NCPD_COI_RT","National consumer price index (CPI) by COICOP, percentage change from previous period (%)",429
+"CPI_NCYR_COI_RT","National consumer price index (CPI) by COICOP, percentage change from previous year (%)",430
+"CPI_NWGT_COI_DT","National consumer price index (CPI) by COICOP, country weights",431
+"CPI_ACPI_COI_RT","National consumer price index (CPI), annual rate of change - discontinued",432
+"CPI_MCPI_COI_RT","National consumer price index (CPI), monthly rate of change - discontinued",433

@@ -1,0 +1,127 @@
+﻿4d,2d,Letra,Descripción
+0101,1,A,Cultivos agrícolas
+0102,1,A,Cría de animales
+0103,1,A,Cultivo de productos agricolas en combinación con la cría de animales
+0104,1,A,"Servicios agrícolas y pecuarios, excepto los veterinarios"
+0105,1,A,"Caza y captura de animales vivos, repoblación de animales de caza y servicios conexos"
+0200,2,A,"Silvicultura, extracción de madera y servicios conexos"
+0500,5,B,"Pesca, explotacion de criaderos de peces, granjas piscicolasy servicios conexos"
+1000,10,C,Extraccion de carbon y lignito;extraccion de turba
+1100,11,C,"Extraccion de petroleo crudo y gas natural; Actividades de servicios relacionadas con la extraccion de petroleo y gas, exceto las actividades de prospeccion"
+1200,12,C,Extraccion de minerales de uranio y torio
+1300,13,C,Extraccion de minerales metaliferos
+1400,14,C,Explotacion de minas y canteras n.c.p.
+1501,15,D,Producción y procesamiento de carne y pescado
+1502,15,D,"Preparación de frutas, hortalizas y legumbres;aceites y grasas"
+1503,15,D,Elaboración de productos lácteos
+1504,15,D,Elaboracion de productos alimenticios n.c.p.
+1505,15,D,Elaboración de bebidas
+1600,16,D,Elaboracion de productos de tabaco
+1700,17,D,Fabricacion de productos textiles
+1800,18,D,Fabricacion de prendas de vestir; terminacion y teñido de pieles
+1901,19,D,Curtido y terminación de cueros; fabricación de artículos de marroquinería y talabartería
+1902,19,D,Fabricación de calzado y de sus partes
+2000,20,D,"Produccion de madera y fabricacion de productos de madera y corcho, excepto muebles; fabricacion de articulos de paja y de materiales trenzables"
+2100,21,D,Fabricación de papel y de productos de papel
+2200,22,D,Edicion e impresion; reproduccion de grabaciones
+2301,23,D,Fabricación de productos de hornos de coque
+2302,23,D,Fabricación de productos de la refinación del petróleo
+2303,23,D,Elaboración de combustible nuclear
+2401,24,D,Fabricación de pinturas; barnices y productos de revestimiento similares; tintas de imprenta y masillas
+2402,24,D,"Fabricación de productos farmacéuticos, sustancias químicas medicinales y productos botánicos"
+2403,24,D,"Fabricación de jabones y detergentes, preparados para limpiar y pulir, perfumes y preparados de tocador"
+2409,24,D,"Fabricación de sustancias químicas básicas, fibras manufacturadas y productos químicos n.c.p."
+2501,25,D,Fabricación de productos de caucho
+2502,25,D,Fabricación de productos de plástico
+2601,26,D,Fabricación de vidrio y productos de vidrio
+2609,26,D,Fabricación de productos minerales no metálicos n.c.p.
+2700,27,D,Fabricación de metales comunes
+2800,28,D,"Fabricación de productos elaborados de metal, exceto maquinaria y equipo"
+2900,29,D,Fabricación de maquinaria y equipo n.c.p.
+3000,30,D,"Fabricación de maquinaria de oficina, contabilidad e informática"
+3100,31,D,Fabricación de maquinaria y aparatos elétricos n.c.p.
+3200,32,D,"Fabricación de equipos y aparatos de radio, televisión y comunicaciones"
+3300,33,D,"Fabricación de instrumentos médicos,ópticos y de precisión; fabricación de relojes"
+3400,34,D,"Fabricación de vehículos automotores, remolques y semiremolques"
+3501,35,D,Construcción y reparación de buques y embarcaciones
+3502,35,D,Fabricación de locomotoras y de material rodante para ferrocarriles y tranvías
+3503,35,D,Fabricación y reparación de aeronaves
+3509,35,D,Fabricación de equipo de transporte n.c.p.
+3601,36,D,Fabricación de muebles y colchones
+3609,36,D,Industrias manufactureras n.c.p.
+3700,37,D,Reciclamento
+4001,40,E,"Generación, transporte y distribución de energía eléctrica"
+4002,40,E,"Fabricación de gas y distribución de combustibles gaseosos por tuberías, suministro de vapor y agua caliente"
+4100,41,E,"Captacion, depuracion y distribucion de agua"
+4500,45,F,Contruccion
+5001,50,G,"Venta de vehículos automotores, excepto motocicletas"
+5002,50,G,"Mantenimiento y reparación de vehículos automotores, excepto motocicletas"
+5003,50,G,"Venta de partes, piezas y accesorios de vehículos automotores"
+5004,50,G,"Venta, mantenimiento y reparación de motocicletas y de sus partes, piezas y accesorios"
+5005,50,G,Venta al por menor de combustible para vehículos automotores y motocicletas
+5301,53,G,Comercio de intermediación
+5302,53,G,Comercio de materias primas agropecuarias
+5303,53,G,"Comercio de alimentos, bebidas y tabaco"
+5304,53,G,"Comercio de textiles y avíos (mercería), prendas de vestir, calzado, marroquineria y art. similares"
+5305,53,G,"Comercio de materiales de construcción, artículos de ferretería y materiales para plomería e instalaciones de gas; pinturas, espejos, artículos para revestimientos"
+5306,53,G,Comercio de mercaderias ncp incluso mercaderías usadas
+5307,53,G,Tiendas no especializadas con predominancia de alimentos y bebidas
+5308,53,G,Tiendas no especialidadas sin predominancia de alimentos y bebidas
+5309,53,G,"Venta al por menor por correo, televisión, internet y otros medios de comunicación"
+5310,53,G,Venta al por menor en puestos móviles y no realizadas en tiendas n.c.p.
+5311,53,G,Reparación de efectos personales y enseres domésticos
+5501,55,H,"Servicios de alojamiento en hoteles, campamentos y otros tipos de hospedaje temporal"
+5502,55,H,Servicios de expendio de comidas por vendedores ambulantes
+5503,55,H,Servicios de expendio de comidas y bebidas excepto vendedores ambulantes de comidas
+6001,60,I,Transporte ferroviario
+6002,60,I,Transporte por metro
+6003,60,I,Transporte automotor de carga
+6004,60,I,Transporte automotor de pasajeros
+6009,60,I,Transporte terrestre ncp
+6100,61,I,Servicio de transporte por via acuatica
+6200,62,I,Servicio de transporte aereo
+6301,63,I,"Manipulación , almacenamiento y depósito"
+6302,63,I,Servicios auxiliares para el transporte
+6303,63,I,Agencias de viaje y actividades complementarias de apoyo turístico
+6401,64,I,Servicios de correos
+6402,64,I,Servicios de telecomunicaciones
+6500,65,J,Intermediacion financeira y otros servicios financeiros exceto los de seguro y de administacion de fondosde jubilaciones y pensiones
+6600,66,J,Servicios de seguros y de administración de fondos de jubilaciones y pensiones
+6701,67,J,"Servicios auxiliares a la actividad financiera, excepto a los servicios de seguros y de administración de fondos de jubilaciones y pensiones"
+6702,67,J,Servicios auxiliares a los servicios de seguros y de administración de fondos de jubilaciones y pensiones
+7000,70,K,Servicios inmobiliarios
+7101,71,K,Alquiler de vehiculos de transporte
+7102,71,K,Alquiler de maquinaria y equipo n.c.p.
+7103,71,K,Alquiler de efectos personales y domesticos
+7201,72,K,Servicios de informática
+7202,72,K,"Mantenimiento y reparación de maquinaria de oficina, contabilidad e informática"
+7300,73,K,Investigación y desarrollo
+7401,74,K,"Servicios jurídicos y de contabilidad, teneduría de libros y auditoría; asesoramiento en materia de impuestos; estudios de mercados y realización de encuestas de opinión pública; asesoramiento empresarial y en materia de gestión"
+7402,74,K,Servicios de arquitectura e ingeniería y servicios técnicos n.c.p.
+7403,74,K,Servicios de publicidad
+7404,74,K,Obtención y dotación de personal
+7405,74,K,Servicios de investigación y seguridad
+7406,74,K,Servicios de limpieza de edificios
+7409,74,K,"Servicios de fotografía, servicios de envase y empaque, servicios empresariales n.c.p."
+7501,75,L,Servicios de la administración pública y prestacion publica de servicios a la comunidad
+7502,75,L,Servicios de la seguridad social obligatoria
+8001,80,M,"Enseñanza inicial y primaria, secundaria, terciaria y posgrado"
+8009,80,M,Enseñanza para adultos y servicios de enseñanza n.c.p.
+8501,85,N,Servicios relacionados con la salud humana
+8502,85,N,Servicios veterinarios
+8503,85,N,Servicios sociales
+9000,90,O,"Eliminación de desperdícios y aguas residuales, saneamiento y servicios similares"
+9101,91,O,Servicios de sindicatos
+9102,91,O,"Servicios de organizaciones empresariales, profesionales y de empleadores"
+9109,91,O,Servicios de asociaciones n.c.p.
+9201,92,O,"Servicios de cinematografía, radio y televisión y servicios de espectáculos artísticos y de diversión"
+9202,92,O,Servicios de agencias de noticias
+9203,92,O,"Servicios de bibliotecas, archivos y museos y servicios culturales n.c.p."
+9204,92,O,Servicios para la práctica deportiva y de entretenimiento n.c.p.
+9301,93,O,"Lavado y limpieza de artículos de tela, cuero y/o de piel, incluso la limpieza en seco"
+9302,93,O,Servicios de peluquería y tratamientos de belleza
+9303,93,O,Pompas fúnebres y servicios conexos
+9309,93,O,Servicios n.c.p.
+9500,95,P,Servicios de hogares privados quecontratan servicio domestico
+9900,99,Q,Servicios de organizaciones y organos extraterritoriales
+9999,98,Z,Actividad no especificada claramente
