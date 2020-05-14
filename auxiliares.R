@@ -203,36 +203,74 @@ getDistanceMeasure <- function(sectorSalida,sectorLlegada,flow,method='neffke201
   return(dt)
   }
 }
-
-getDistanceMeasureProduccion <- function(sectorSalida,sectorLlegada,flow,method='neffke2017'){
-  if(method=='neffke2017') {
-    dt <- data.table(sectorSalida, sectorLlegada, flow)
-    dt <- dt[!(sectorSalida %in% 'NA' | sectorLlegada %in% 'NA')]
-    dt <- dcast(dt,sectorSalida ~ sectorLlegada,value.var = 'flow')
-    dt <- as.matrix(dt)
-    rowNames <- dt[,1]
-    dt <- dt[,-1]
-    dt <- apply(dt,2,as.numeric)
-    rownames(dt) <- rowNames
-    dt <- fill_matrix(dt,replaceValue = 0) 
-    dt[is.na(dt)] <- 0
-    dt[upper.tri(dt,diag = FALSE)] <- dt[upper.tri(dt,diag = FALSE)] + t(dt)[upper.tri(t(dt),diag = FALSE)]
-    dt <- ( dt*sum(dt) ) / ( outer(rowSums(dt),rowSums(dt), FUN = '*') )
-    dt[lower.tri(dt,diag = FALSE)] <- t(dt)[lower.tri(t(dt),diag = FALSE)]
-    sectores <- rownames(dt)
-    dt <- as.data.table((dt - 1)/(dt + 1))
+# This function calculates the distance between two groups based on the flow
+# that is observed and comparing it to a "no attraction" benchmark.
+# Currently implements neffke et al (2017) 
+getDistanceMeasureProduccion <- function(sectorSalida,
+                                         sectorLlegada,
+                                         flow,
+                                         simmetry="mean"){
+  
+  dt <- data.table(sectorSalida, sectorLlegada, flow)
+  dt <- dt[!(sectorSalida %in% 'NA' | sectorLlegada %in% 'NA')]
+  dt <- dcast(dt,sectorSalida ~ sectorLlegada,value.var = 'flow')
+  dt <- as.matrix(dt)
+  rowNames <- dt[,1]
+  dt <- dt[,-1]
+  dt <- apply(dt,2,as.numeric)
+  rownames(dt) <- rowNames
+  # Fills matriz with zero's so to make the matrix squared in case that a group has only evidenced inward/outward flows
+  dt <- fill_matrix(dt,replaceValue = 0) 
+  # Fill NA's with 0s
+  dt[is.na(dt)] <- 0
+  # dtFlows has the size of inward+outward flows
+  dtFlows <- dt
+  dtFlows[upper.tri(dtFlows,diag = FALSE)] <- dtFlows[upper.tri(dtFlows,diag = FALSE)] + t(dtFlows)[upper.tri(t(dtFlows),diag = FALSE)]
+  # Now we calculate the distance measure: F_ij*F_** / (F_i* * F_*j)
+  dt <- (dt*sum(dtFlows[upper.tri(dtFlows,diag = TRUE)]) ) / ( outer(rowSums(dt),colSums(dt), FUN = '*'))
+  sectores <- rownames(dt)
+  dt <- (dt - 1)/(dt + 1)
+  # If you want to keep the assymetric version, then 'none' in the simmetry argument will do that for you
+  if(simmetry=="none"){
+    dt <- as.data.table(dt)
     dt$sectorSalida <- sectores
     dt <- melt(dt,id.vars='sectorSalida')
     colnames(dt) <- c('sectorSalida','sectorLlegada','RijCorregido')
-    return(dt)
-  } else {
-    dt <- data.table(sectorSalida, sectorLlegada, flow)
-    totalLlegadas <- dt[,list(totalLlegada=sum(flow)),by='sectorLlegada']
-    totalSalidas <- dt[,list(totalSalida=sum(flow)),by='sectorSalida']
-    dt <- dcast(dt,sectorSalida ~ sectorLlegada,value.var = 'flow')
-    dt[,2:ncol(dt)] <-(dt[,-1]*sum(dt[,-1]))/ outer(totalLlegadas$totalLlegada, totalSalidas$totalSalida, FUN = "*")
-    dt[,2:ncol(dt)] <- as.data.table(as.matrix(dt[,2:ncol(dt)] - 1) / as.matrix(dt[,2:ncol(dt)] + 1))
-    dt <- melt(dt,id.vars = 'sectorSalida',variable.name = 'sectorLlegada',value.name = 'RijCorregido')
+    # Add data on the number of observations to create the distance
+    flujos <- data.table(sectorSalida, sectorLlegada, flow)
+    dt <- dt[flujos,on=c("sectorSalida","sectorLlegada")]
     return(dt)
   }
+  # Three ways of dealing with the asymmetry of the distance measure that are implemented in this function:
+  # min, mean, and max. Any of this values can be pass onto the argument simmetry
+  valoresReemplazo <-  apply(cbind(dt[upper.tri(dt,diag=FALSE)],
+                                   t(dt)[upper.tri(t(dt),diag=FALSE)]),
+                             MARGIN = 1,
+                             eval(parse(text = simmetry)))
+  dt[upper.tri(dt,diag=FALSE)] <- valoresReemplazo
+  dt[lower.tri(dt,diag=FALSE)]  <- t(dt)[lower.tri(t(dt),diag=FALSE)]
+  dt <- as.data.table(dt)
+  dt$sectorSalida <- sectores
+  dt <- melt(dt,id.vars='sectorSalida')
+  colnames(dt) <- c('sectorSalida','sectorLlegada','RijCorregido')
+  # Add data on the number of observations to create the distance.
+  flujos <- data.table(sectorSalida, sectorLlegada, flow)
+  flujos <- flujos[!(sectorSalida %in% 'NA' | sectorLlegada %in% 'NA')]
+  flujos <- dcast(flujos,sectorSalida ~ sectorLlegada,value.var = 'flow')
+  flujos <- as.matrix(flujos)
+  rowNames <- flujos[,1]
+  flujos <- flujos[,-1]
+  flujos <- apply(flujos,2,as.numeric)
+  rownames(flujos) <- rowNames
+  flujos <- fill_matrix(flujos,replaceValue = 0)
+  sectores <- rownames(flujos)
+  flujos[is.na(flujos)] <- 0
+  flujos[upper.tri(flujos,diag = FALSE)] <- flujos[upper.tri(flujos,diag = FALSE)] + t(flujos)[upper.tri(t(flujos),diag = FALSE)]
+  flujos[lower.tri(flujos,diag = FALSE)] <- t(flujos)[lower.tri(t(flujos),diag = FALSE)]
+  flujos <- as.data.table(flujos)
+  flujos$sectorSalida <- sectores
+  flujos <- melt(flujos,id.vars="sectorSalida") 
+  colnames(flujos) <- c('sectorSalida','sectorLlegada','flow')
+  dt <- dt[flujos,on=c("sectorSalida","sectorLlegada")]
+  return(dt)
 }
