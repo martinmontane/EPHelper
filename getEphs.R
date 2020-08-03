@@ -1,4 +1,4 @@
-getEPHS <- function(years=c(2003:2019),
+getEPHS <- function(years=c(2003:2020),
                     trims=c(1:4),
                     ind=TRUE,
                     dir=NULL,
