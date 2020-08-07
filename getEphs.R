@@ -2,7 +2,8 @@ getEPHS <- function(years=c(2003:2020),
                     trims=c(1:4),
                     ind=TRUE,
                     dir=NULL,
-                    asDataTable=TRUE) {
+                    asDataTable=TRUE,
+                    cols=NULL) {
   if (!is.loaded("data.table")) library(data.table)
   if (!is.loaded("foreign")) library(foreign)
   
@@ -105,25 +106,35 @@ getEPHS <- function(years=c(2003:2020),
     if(ind) {
       filesToRead <- filesToRead[grepl(pattern = '*individual*',x = filesToRead,ignore.case = TRUE)]
       datos <- lapply(filesToRead,function(x){
+        cat("Trabajando en el archivo ",x,"\r")
         if(grepl(pattern = 'dta',x = x)) {
-          x <- as.data.table(foreign::read.dta(paste0(dir,'/',x),convert.factors = FALSE))
-          colnames(x) <- toupper(colnames(x))
-          return(x) 
+          aux <- as.data.table(foreign::read.dta(paste0(dir,'/',x),convert.factors = FALSE))
+          colnames(aux) <- toupper(colnames(aux))
         } else {
-          data.table::fread(paste0(dir,'/',x))
+          aux <- data.table::fread(paste0(dir,'/',x))
         }
+        
+        if(!is.null(cols)) {
+          aux <- aux[,colnames(aux) %in% cols, with=FALSE]
+        }
+        aux
+        
       })
       datos <- rbindlist(datos, fill=TRUE)
     } else {
       filesToRead <- filesToRead[grepl(pattern = '*Hogar*',x = filesToRead,ignore.case = TRUE)]
       datos <- lapply(filesToRead,function(x){
+        cat("Trabajando en el archivo ",x,"\r")
         if(grepl(pattern = 'dta',x = x)) {
-          x <- as.data.table(foreign::read.dta(paste0(dir,'/',x),convert.factors = FALSE))
-          colnames(x) <- toupper(colnames(x))
-          return(x) 
+          aux <- as.data.table(foreign::read.dta(paste0(dir,'/',x),convert.factors = FALSE))
+          colnames(aux) <- toupper(colnames(aux))
         } else {
-          data.table::fread(paste0(dir,'/',x))
+          aux <- data.table::fread(paste0(dir,'/',x))
         }
+        if(!is.null(cols)) {
+          aux <- aux[,colnames(aux) %in% cols, with=FALSE]
+        }
+        aux
       })
       datos <- rbindlist(datos, fill=TRUE)
     }
