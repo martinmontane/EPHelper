@@ -73,7 +73,8 @@ getEPHS <- function(years=c(2003:2020),
                                                'https://www.indec.gob.ar/ftp/cuadros/menusuperior/eph/EPH_usu_4_Trim_2019_txt.zip',
                                                'https://www.indec.gob.ar/ftp/cuadros/menusuperior/eph/EPH_usu_1_Trim_2020_txt.zip',
                                                'https://www.indec.gob.ar/ftp/cuadros/menusuperior/eph/EPH_usu_2_Trim_2020_txt.zip',
-                                               'https://www.indec.gob.ar/ftp/cuadros/menusuperior/eph/EPH_usu_3_Trim_2020_txt.zip'))
+                                               'https://www.indec.gob.ar/ftp/cuadros/menusuperior/eph/EPH_usu_3_Trim_2020_txt.zip',
+                                               'https://www.indec.gob.ar/ftp/cuadros/menusuperior/eph/EPH_usu_4_Trim_2020_txt.zip'))
   
   ephsDisponibles <- ephsDisponibles[year %in% years & trim %in% trims]
   
